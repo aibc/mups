@@ -5,15 +5,31 @@
   "ideas": {
     "1": {
       "title": "REGISTRATION EORI NR.",
-      "id": 2
+      "id": 2,
+      "attr": {
+        "progress": "1",
+        "style": {}
+      }
     },
     "2": {
       "title": "OFFICE FURNITURE",
-      "id": 4
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "STOYAN NIKOLOV",
+          "id": 18
+        }
+      }
     },
     "3": {
       "title": "OFFICE INTERNET",
-      "id": 6
+      "id": 6,
+      "attr": {
+        "style": {
+          "background": "transparent"
+        },
+        "progress": "1"
+      }
     },
     "4": {
       "title": "CASH REGISTER",
@@ -30,7 +46,19 @@
             "2": {
               "title": "DAISY 240 BGN",
               "id": 14
+            },
+            "3": {
+              "title": "ndk",
+              "id": 16,
+              "attr": {
+                "progress": "1",
+                "style": {}
+              }
             }
+          },
+          "attr": {
+            "style": {},
+            "progress": "1"
           }
         },
         "2": {
@@ -39,11 +67,51 @@
           "ideas": {
             "1": {
               "title": "SUPPORT CONTRACT 70BGN",
-              "id": 11
+              "id": 11,
+              "attr": {
+                "progress": "1",
+                "style": {}
+              }
             },
             "2": {
               "title": "CASH REGISTERS FROM 220BGN - 240 BGN",
-              "id": 13
+              "id": 13,
+              "attr": {
+                "progress": "1",
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "too far",
+              "id": 15,
+              "attr": {
+                "progress": "1",
+                "style": {}
+              }
+            }
+          },
+          "attr": {
+            "style": {},
+            "progress": "1"
+          }
+        }
+      },
+      "attr": {
+        "style": {},
+        "progress": "1"
+      }
+    },
+    "5": {
+      "title": "OFFICE RENT",
+      "id": 20,
+      "ideas": {
+        "1": {
+          "title": "OBSHTINA O.KUPEL",
+          "id": 21,
+          "ideas": {
+            "1": {
+              "title": "DANAK",
+              "id": 23
             }
           }
         }
@@ -51,15 +119,117 @@
     },
     "-1": {
       "title": "REGISTRATION VAT",
-      "id": 3
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "PALNOMOSHTNO ZA ELENA SHOPOVA",
+          "id": 17,
+          "attr": {
+            "progress": "1",
+            "style": {}
+          }
+        }
+      },
+      "attr": {
+        "progress": "1",
+        "style": {}
+      }
     },
     "-2": {
       "title": "OFFICE ELECTRIC METER",
-      "id": 5
+      "id": 5,
+      "attr": {
+        "progress": "1",
+        "style": {}
+      }
     },
     "-3": {
       "title": "WEBSITE",
-      "id": 7
+      "id": 7,
+      "attr": {
+        "progress": "1",
+        "style": {}
+      }
+    },
+    "-4": {
+      "title": "REKLAMA NA OFISA",
+      "id": 19,
+      "ideas": {
+        "1": {
+          "title": "OBSHTINA O.KUPEL",
+          "id": 22,
+          "ideas": {
+            "1": {
+              "title": "RAZRESHENIE ZA REKLAMATA",
+              "id": 24
+            }
+          }
+        }
+      }
     }
-  }
+  },
+  "attr": {
+    "progress-statuses": {
+      "1": {
+        "description": "Not Started",
+        "priority": "1"
+      },
+      "2": {
+        "description": "BLOCKING OTHERS",
+        "style": {
+          "background": "#ff0000"
+        },
+        "priority": "7"
+      },
+      "passing": {
+        "description": "Done",
+        "style": {
+          "background": "#00CC00"
+        },
+        "priority": "6"
+      },
+      "under-review": {
+        "description": "Under review",
+        "style": {
+          "background": "#00CCFF"
+        },
+        "priority": "5"
+      },
+      "blocked": {
+        "description": "Blocked",
+        "style": {
+          "background": "#990033"
+        },
+        "priority": "7"
+      },
+      "in-progress": {
+        "description": "In Progress",
+        "style": {
+          "background": "#FFCC00"
+        },
+        "priority": "3"
+      },
+      "parked": {
+        "description": "Parked",
+        "style": {
+          "background": "#FF3300"
+        },
+        "priority": "2"
+      }
+    },
+    "style": {},
+    "progress": "1"
+  },
+  "links": [
+    {
+      "ideaIdFrom": 22,
+      "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
 }
